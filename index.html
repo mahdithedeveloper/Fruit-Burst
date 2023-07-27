@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <!-- tailwind and daisyui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- custom styles -->
+    <style> 
+        .font-lato{font-family: 'Lato', sans-serif;}
+        
+    </style>
+</head>
+<body class="font-lato ">
+    <!-- header section -->
+    <header class="w-full md:container md:mx-auto">
+        <!-- nav section -->
+        <nav class=" ">
+            <div class="navbar  md:bg-[#F85559]   md:flex-row  bg-color-primary flex m-0  flex-row-reverse justify-around md:justify-around  md:rounded-full md:my-12 py-6 md:px-4 ">
+                <div class="dropdown    lg:hidden">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <img src="images/dropdown.png" alt="">
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 text-base rounded-box w-auto">
+                      <li><a>Home</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>News</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                <div class="navbar-start hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-1 text-lg font-medium md:text-white">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                <div class="pl-0  md:navbar-center ">
+                  <a class="btn btn-ghost normal-case text-2xl md:text-5xl font-bold md:text-white"><img class="w-12" src="images/logo.png" alt=""> Fruit Burst</a>
+                </div>
+                <div class=" hidden md:block  navbar-end ">
+                    <div class=" ">
+                        <div class="flex ml-32  ">
+                          <input type="text" placeholder="Search…" class="input w-96 ml-auto rounded-full "  />
+                          <img  class="w-6 h-6 relative top-3 right-14" src="images/Frame.png" alt="">
+                        </div>
+                      </div>
+                  
+                </div>
+              </div>
+        </nav>
+
+
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
